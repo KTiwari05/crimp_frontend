@@ -28,7 +28,7 @@ export function BackgroundBeamsWithCollisionDemo() {
 
     try {
       // In backgroundBoxesDemo.jsx
-      const response = await fetch("http://localhost:5005/login", {
+      const response = await fetch("http://10.245.146.250:5005/login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

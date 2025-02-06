@@ -74,7 +74,7 @@ function Home(): JSX.Element {
     setShowModal(true);
 
     try {
-      const response = await fetch("http://localhost:5005/detect", {
+      const response = await fetch("http://10.245.146.250:5005/detect", {
         method: "POST",
         body: formData,
         credentials: "include",

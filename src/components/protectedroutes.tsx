@@ -8,7 +8,7 @@ function ProtectedRoute({ children }: { children: React.ReactNode }) {
   useEffect(() => {
     const checkAuthStatus = async () => {
       try {
-        const response = await fetch("http://localhost:5005/@me", {
+        const response = await fetch("http://10.245.146.250:5005/@me", {
           method: "GET",
           credentials: "include", // Include cookies with the request
         });
